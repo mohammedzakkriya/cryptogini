@@ -99,3 +99,17 @@ footer {
 .navbar-brand.logo img{
   width: 200px;
 }
+
+.navbar-collapse {
+  background-color: #fff;
+  &.show {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    
+    .nav-link {
+      margin-left: 0rem;
+      &.active {
+        border: 2px solid #f3c36e;
+      }
+    }
+  }
+}
